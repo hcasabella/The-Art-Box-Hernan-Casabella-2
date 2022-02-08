@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Fuentes externas -->
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Julius+Sans+One&family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet">
+   <!-- BOOTSTRAP -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <!-- Estilos -->
+   <link rel="stylesheet" href="./css/misestilos.css">
+   <title>TheArtBox</title>
+
+</head>
+<!-- Encabezado -->
+
+<body>
+   <header class="header">
+      <h1>The Art Box</h1>
+      <nav class="nav">
+
+         <ul>
+            <li><a href="./pages/theartbox.html">The Art Box</a></li>
+            <li><a href="./pages/productos.html">Productos</a></li>
+            <li><a href="./pages/edicioneslimitadas.html">Ediciones Limitadas</a></li>
+            <li><a href="./pages/contacto.html">Contacto</a></li>
+         </ul>
+
+
+      </nav>
+   </header>
+   <!-- Main -->
+   <main class="main">
+
+      <section class="padre1">
+         <div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+               <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                     aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                     aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                     aria-label="Slide 3"></button>
+               </div>
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <img src="./images/Hokusai3edit.jpg" class="carrusel-hoku" alt="...">
+                     <div class="carousel-caption d-none d-md-block">
+                        <div class="textcarrusel1">
+                           <h5>Hokusai : Cien vistas del Edo</h5>
+                           <p> Ya disponible ésta super edicion que nos trae Taschen</p>
+                        </div>
+
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img src="./images/metropolis.jpg" class="carrusel-metropolis" alt="...">
+                     <div class="carousel-caption d-none d-md-block">
+                        <div class="textcarrusel1">
+                           <h5>Metropolis</h5>
+                           <p>Todo lo que siempre quisiste saber de la obra maestra de Fritz Lang, en un sólo libro</p>
+                        </div>
+                        
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <img src="./images/nighthawks.jpg" class="carrusel-nighthawks" alt="...">
+                     <div class="carousel-caption d-none d-md-block">
+                        <div class="textcarrusel1">
+                           <h5>Ediciones Especiales</h5>
+                           <p>Tené en tu casa esa edicion limitada que siempre anduviste buscando</p>
+                        </div>
+
+                     </div>
+                  </div>
+               </div>
+               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+               </button>
+            </div>
+
+         </div>
+
+      </section>
+
+      <div class="padre2">
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+               <div class="card">
+                  <img src="./images/Berlinedit.png" class="card-berlin" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Night falls on Berlin</h5>
+                     <p class="card-text">La mítica noche Berlinesa durante la republica de Weimar cobra vida en este
+                        hermoso libro de Taschen.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="./images/Mitosedit.jpg" class="card-mitos" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">greek Myths</h5>
+                     <p class="card-text">El mito Griego ilustrado como nunca antes, un libro que cualquier amante de la
+                        cultura Griega no se puede perder</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="./images/Russianedit.png" class="card-rusia" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Russian Avant-Garde</h5>
+                     <p class="card-text">Toda la fuerza y creatividad del diseño Ruso post revolucion en un sólo libro.
+                        Inpresindible para diseñadores</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="./images/Zsukalski 2.jpg" class="card-szukalski" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">El arte de Szukalski</h5>
+                     <p class="card-text">Todos los dibujos y retratos de Szukalski reunidos como nunca antes en un
+                        libro impresionante</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+
+      <section class="padre3">
+         <div>
+            <h2>El Arte de Szukalski</h2>
+            <p>
+               Traemos todos los libros editados de este genial y casi olvidado artista.
+               Quien es Szukalski? Mirá!
+            </p>
+
+         </div>
+         <div class="video">
+            <iframe width="640" height="480" src="https://www.youtube.com/embed/sPkoW4cmqT8"
+               title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+               allowfullscreen></iframe>
+         </div>
+
+      </section>
+   </main>
+
+
+   <footer class="footer">
+
+      <div>
+         <h3> Preguntas? Contactáte con nosotros</h3>
+         <a id="contacto" href="./pages/contacto.html">contacto</a>
+      </div>
+
+
+
+      <div class="suscribite">
+         <h3>Suscribite</h3>
+
+         <form class="correo">
+            <label for="mail">Dejanos tu correo</label>
+            <input type="email" name="mail" id="mail" placeholder="mimail@mail.com">
+            <input type="submit" value="ENVIAR">
+         </form>
+
+
+         <div>
+            <img src="./images/twitter(1).png" width="48px">
+            <img src="./images/instagramicon.gif" width="55px">
+            <img src="./images/facebook.png" width="48px">
+         </div>
+      </div>
+
+
+      <p>copyright</p>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
