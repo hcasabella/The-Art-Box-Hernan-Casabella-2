@@ -1,0 +1,73 @@
+/* TARJETAS */
+
+.padre2 {
+    display: flex;
+    padding-top: 60px;
+    margin: 100px 20px;
+    padding-left: 50px;
+    text-align:left;
+    justify-content: center;
+}
+.card{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.card-body-text {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 400px;
+    
+}
+
+.card-berlin {
+    height: 540px ;
+    border-radius: 8px;
+}
+
+.card-mitos {
+    width: 399px;
+    border-radius: 8px;
+}
+
+.card-rusia{
+    width: 399px;
+    height: 540px;
+    border-radius: 8px;
+}
+
+.card-szukalski{
+    width: 399px;
+    height: 540px;
+    border-radius: 8px;
+}
+
+
+
+/* CSS THE ART BOX TARJETA */
+.tarjeta{
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 260px;
+    width: 900px;
+    height: 600px;
+}
+.card-img-top {
+   
+    width: 898px;
+    height: 400px;
+}
+
+.card-body{
+    font-family: 'Julius Sans One', sans-serif;
+    width: 900px;
+}
+
+.card-title {
+    padding-left: 27px;
+    font-weight:bolder;
+}

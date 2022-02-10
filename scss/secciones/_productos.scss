@@ -1,0 +1,78 @@
+/* CSS PRODUCTOS  */
+
+.grilla {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 100vw;
+    grid-row-gap: 60px;
+   grid-template-areas:
+   "nuestroslibros nuestroslibros"
+   "section1 section1"
+   "section2 section2"
+   "section3 section3"
+   ;
+
+
+
+}
+.nuestroslibros {
+    display: grid;
+    grid-area: nuestroslibros;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+.estadosunidos {
+    font-size: 30px;
+}
+.rusia {
+    font-size: 30px;
+}
+
+.alemania {
+    font-size: 30px;
+}
+
+/* estados unidos */
+
+.section1 {
+    display: grid;
+    grid-area: section1;
+    background-color: rgb(156, 241, 156);
+    padding: 0px;
+    display: flex;
+
+    }
+
+.texto1 {
+    padding: 20px;
+    display: inline-block;
+    text-align: justify;
+}
+/* rusia */
+
+.section2 {
+    grid-area: section2;
+    background-color: coral;
+    padding:  0px;
+    display: flex;
+
+}
+.texto2  {
+    padding: 20px;
+    text-align: justify;
+}
+/* alemania */
+.section3{
+    grid-area: section3;
+    background-color:rgb(16, 196, 187);
+    padding:  0px;
+    display: flex;
+
+}
+.texto3 {
+    padding: 20px;
+    text-align: justify;
+}
