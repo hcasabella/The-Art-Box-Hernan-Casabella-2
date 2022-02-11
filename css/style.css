@@ -9,6 +9,9 @@
   font-weight: lighter;
   text-align: justify; }
 
+.textoResaltado {
+  font-weight: bold; }
+
 h1 {
   font-family: 'Anton', sans-serif;
   font-size: 67px;
@@ -242,6 +245,9 @@ p {
   justify-content: center;
   justify-content: space-between;
   padding-top: 20px;
+  font-weight: bold; }
+
+.textoResaltado {
   font-weight: bold; }
 
 /* TARJETAS */
