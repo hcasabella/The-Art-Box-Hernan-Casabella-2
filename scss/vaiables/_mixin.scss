@@ -1,0 +1,7 @@
+@mixin fontstyle ($violeta,$tamanio-letra,$negro){
+    color:$violeta;
+    font-size: $tamanio-letra;
+    &hover{
+        background-color: $negro;
+    }
+}
