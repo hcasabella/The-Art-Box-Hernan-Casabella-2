@@ -1,3 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none; }
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 67px;
+  color: red;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-top: 20px; }
+
+h2 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+  font-size: 37px;
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center; }
+
+h3 {
+  font-family: 'Julius Sans One', sans-serif;
+  padding: 10px 30px;
+  font-size: 27px; }
+
+h5 {
+  font-size: 27px;
+  font-weight: bolder; }
+
+p {
+  font-family: 'Alike', serif;
+  font-size: 25px;
+  padding: 10px 30px;
+  text-align: justify; }
+
 .header {
   display: flex;
   text-decoration: none;
@@ -26,7 +63,7 @@
 
 /* MAIN */
 .main {
-  background-color: white; }
+  background-color: #ffffff; }
 
 .padre1 {
   margin-bottom: 50px; }
@@ -109,7 +146,7 @@
 /* rusia */
 .section2 {
   grid-area: section2;
-  background-color: coral;
+  background-color: #ff7f50;
   padding: 0px;
   display: flex; }
 
@@ -174,37 +211,6 @@
 
 .mail {
   padding-bottom: 30px; }
-
-h1 {
-  font-family: 'Anton', sans-serif;
-  font-size: 67px;
-  color: red;
-  text-decoration: none;
-  padding-left: 10px;
-  padding-top: 20px; }
-
-h2 {
-  font-family: 'Julius Sans One', sans-serif;
-  font-weight: bold;
-  font-size: 37px;
-  margin-top: 30px;
-  padding: 20px;
-  text-align: center; }
-
-h3 {
-  font-family: 'Julius Sans One', sans-serif;
-  padding: 10px 30px;
-  font-size: 27px; }
-
-h5 {
-  font-size: 27px;
-  font-weight: bolder; }
-
-p {
-  font-family: 'Alike', serif;
-  font-size: 25px;
-  padding: 10px 30px;
-  text-align: justify; }
 
 /* FOOTER */
 .footer {
@@ -289,12 +295,6 @@ p {
   padding-left: 27px;
   font-weight: bolder; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none; }
-
 /* MEDIA QUERIS */
 /* PANTALLA MEDIANA */
 /* INDEX */
@@ -373,3 +373,14 @@ p {
     height: 300px; }
   .szukal div {
     padding-top: 20px; } }
+
+@media (max-width: 425px) {
+  .mainProductos {
+    width: 275.8325px; }
+  .section1 {
+    display: block; }
+  .header {
+    display: block;
+    height: 250px;
+    width: max-content;
+    padding-bottom: 30px; } }

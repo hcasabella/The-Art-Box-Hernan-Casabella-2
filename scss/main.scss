@@ -1,8 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+ 
+ //Variables 
+ @import './vaiables/colores';
+ @import './vaiables/extend';
+ @import './vaiables/mapas';
+ @import './vaiables/mixing.scss';
+ @import './secciones/fuentes';
+ @import './vaiables/tamanio';
 
  
- //utilidades 
-
- //variables
+ 
 
 
  //importaciones
@@ -12,26 +24,17 @@
   @import './secciones/edicioneslimitadas';
   @import './secciones/theartbox';
   @import './secciones/contacto.scss';
-  @import './secciones/fuentes';
   @import './secciones/grilla';
   @import './header-footer/footer';
   @import './utilidades/botones';
   @import './vaiables/mapas';
   @import './utilidades/cards';
-  @import './vaiables/colores';
-  @import './vaiables/extend';
-  @import './vaiables/mapas';
-  @import './vaiables/mixing.scss';
+  
 
 
   
 
-  *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+ 
 
 
 /* MEDIA QUERIS */
@@ -164,6 +167,17 @@
 
     }
 
+
+//MEDIA QUERIS PRODUCTOS
+
+@media(max-width:425px){
+    .mainProductos{
+        width:425px
+    }
+    
+   
+   
+    
 
 
 

@@ -40,22 +40,23 @@
 .section1 {
     display: grid;
     grid-area: section1;
-    background-color: rgb(156, 241, 156);
+    background-color: $usacolor;
     padding: 0px;
     display: flex;
-
+    
     }
 
 .texto1 {
     padding: 20px;
     display: inline-block;
     text-align: justify;
+    
 }
 /* rusia */
 
 .section2 {
     grid-area: section2;
-    background-color: coral;
+    background-color: $rusiacolor;
     padding:  0px;
     display: flex;
 
@@ -67,7 +68,7 @@
 /* alemania */
 .section3{
     grid-area: section3;
-    background-color:rgb(16, 196, 187);
+    background-color: $alemaniacolor;
     padding:  0px;
     display: flex;
 
@@ -76,3 +77,8 @@
     padding: 20px;
     text-align: justify;
 }
+
+.mainProductos {
+     
+}
+
