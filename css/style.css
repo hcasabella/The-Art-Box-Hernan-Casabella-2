@@ -325,8 +325,7 @@ p {
     padding-right: 7px; }
   /* MEDIA QUERIS EDICIONES LIMITADAS */
   .szukal {
-    display: flex;
-    flex-direction: row-reverse;
+    display: block;
     padding-top: 25px; } }
 
 /* MEDIA QUERIS PANTALLA CELL CHICA */
@@ -374,13 +373,23 @@ p {
   .szukal div {
     padding-top: 20px; } }
 
-@media (max-width: 425px) {
-  .mainProductos {
-    width: 275.8325px; }
-  .section1 {
+@media (max-width: 650px) {
+  .mainProductos .nuestrosLibros {
+    text-align: center; }
+  .mainProductos img {
+    width: 320px; }
+  .mainProductos .section1 {
     display: block; }
-  .header {
-    display: block;
-    height: 250px;
-    width: max-content;
-    padding-bottom: 30px; } }
+  .mainProductos .texto1 {
+    width: 320px; }
+  .mainProductos .section2 {
+    display: block; }
+    .mainProductos .section2 img {
+      height: 350px; }
+  .mainProductos .texto2 {
+    width: 320px; }
+  .mainProductos .section3 {
+    display: block; }
+    .mainProductos .section3 img {
+      width: 320px;
+      height: 174px; } }

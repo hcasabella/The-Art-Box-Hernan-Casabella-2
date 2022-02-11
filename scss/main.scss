@@ -82,8 +82,7 @@
    }
 /* MEDIA QUERIS EDICIONES LIMITADAS */
 .szukal {
-    display:flex;
-    flex-direction: row-reverse;
+    display:block;
     padding-top: 25px;
     
 }
@@ -168,13 +167,42 @@
     }
 
 
-//MEDIA QUERIS PRODUCTOS
+//MEDIA QUERIS PRODUCTOS MOBILE 320 PX
 
-@media(max-width:425px){
+@media(max-width:650px){
     .mainProductos{
-        width:425px
+        .nuestrosLibros{
+            text-align: center;
+        }
+      img{
+          width:320px;
+      }
+     
+      .section1 {
+          display: block;
+      }
+      .texto1 {
+          width: 320px;
+      }
+      .section2 {
+          display:block;
+          img {
+            height:350px ;
+          }
+      }
+      .texto2{
+          width:320px;
+          
+      }
+      .section3 {
+          display: block;
+          img{
+              width: 320px;
+              height: 174px;
+          }
+      }
     }
-    
+}   
    
    
     
