@@ -4,6 +4,11 @@
   box-sizing: border-box;
   text-decoration: none; }
 
+.mainProductos .textoParrafo {
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: lighter;
+  text-align: justify; }
+
 h1 {
   font-family: 'Anton', sans-serif;
   font-size: 67px;
