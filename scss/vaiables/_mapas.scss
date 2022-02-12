@@ -10,7 +10,7 @@ $textoResaltado:(
 );
 
 //BUCLE
-@each $frase,$color in textoResaltado{
+@each $frase, $color in textoResaltado{
     .#{$frase}{
         color: $color;
         font-weight: bold;
