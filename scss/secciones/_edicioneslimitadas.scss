@@ -1,0 +1,42 @@
+
+/* EDICIONES LIMITADAS ESTILOS */
+
+
+
+.hoku {
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-right: 45px;
+
+}
+.textohoku {
+    text-align:left;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.hokuImg:hover{
+    transition: all 0.5s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+
+.szukal {
+    display: flex;
+    flex-direction:row-reverse;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.textszukalski {
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+.szukalskiImg:hover {
+    transition: all 0.5s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+
+}
+

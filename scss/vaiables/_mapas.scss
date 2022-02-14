@@ -1,7 +1,19 @@
 //es una coleccion de variables
 //lo llamamos con signo $
+
+//MAPA
 $textoResaltado:(
-    inicio:#6363da,
-    verano: rgb(223, 45, 45),
+    spamUsa:rgb(98, 98, 218),
+    spamRusia: rgb(223, 45, 45),
+    spamAlemania:rgb(250, 163, 2)
 
 );
+
+//BUCLE
+@each $frase, $color in textoResaltado{
+    .#{$frase}{
+        color: $color;
+        font-weight: bold;
+    }
+    
+}

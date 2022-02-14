@@ -1,0 +1,60 @@
+
+
+
+
+
+/* MAIN */
+.main {
+    background-color:$colorfondo;
+}
+
+.padre1{
+   margin-bottom: 50px;
+}
+.carrusel-hoku{
+    width: 100%;
+    height: 600px;
+}
+.carrusel-metropolis {
+    width: 100%;
+    height: 600px;
+
+}
+.carrusel-nighthawks {
+    width: 100%;
+    height: 600px;
+}
+
+.textcarrusel1 h5{
+    
+    font-family: 'Julius Sans One', sans-serif;
+    width: 300px;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+.textcarrusel1 p {
+    text-align:start;
+    font-family: 'Julius Sans One', sans-serif;
+    width: 300px;
+    background-color: white;
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.padre3 {
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .video {
+      padding-top: 30px;
+      padding-bottom: 30px;
+  }
+
