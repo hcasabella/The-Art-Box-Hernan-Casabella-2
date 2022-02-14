@@ -44,6 +44,7 @@
 @media (max-width:768px){
     h1 {
         font-size: 45px;
+        text-decoration: none;
     }
 
     p {
@@ -53,15 +54,24 @@
         width: 100vw;
 
     }
+    .header ul li{
+        display: flex;
+        justify-content:space-between;
+    }
     /* MEDIA QUERIS INDEX */
     .padre1 {
-        display: block;
-        justify-content: center;
+       display: none;
+       
     }
-    .padre2{
+    .padre2 div{
         justify-content:center;
+        display: block;
 
     }
+    .card-berlin{
+        width: 400px;
+    }
+  
     .hijo1 img {
         width: 250px;
         height: 350px;
@@ -80,6 +90,8 @@
     height: 350px;
     padding-right: 7px;
    }
+
+   
 /* MEDIA QUERIS EDICIONES LIMITADAS */
 .szukal {
     display:block;
