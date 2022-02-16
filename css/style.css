@@ -322,6 +322,8 @@ p {
 @media (max-width: 320px) {
   .header nav {
     width: 320px; }
+  .listItems {
+    display: none; }
   .navbar-brand {
     font-size: 37px; }
   .padre1 {
@@ -347,6 +349,8 @@ p {
 @media (max-width: 375px) {
   .header nav {
     width: 375px; }
+  .listItems {
+    display: none; }
   .navbar-brand {
     font-size: 37px; }
   .padre1 {
@@ -370,6 +374,8 @@ p {
 @media (max-width: 425px) {
   .header nav {
     width: 375px; }
+  .listItems {
+    display: none; }
   .navbar-brand {
     font-size: 37px; }
   .padre1 {
@@ -393,6 +399,8 @@ p {
 @media (max-width: 768px) {
   .navbar-brand {
     font-size: 37px; }
+  .listItems {
+    display: none; }
   .padre1 {
     display: none; }
   .padre2 section {
@@ -431,3 +439,22 @@ p {
     height: 432px;
     width: 300px;
     justify-content: center; } }
+
+@media (max-width: 320px) {
+  .header nav {
+    width: 320px; }
+  .listItems {
+    display: none; }
+  .navbar-brand {
+    font-size: 37px; }
+  .nuestrosLibros {
+    display: none; }
+  .grilla section {
+    margin-top: 0px;
+    display: block; }
+  .grilla section div p {
+    font-size: 50px; }
+  .section2 img {
+    width: 100%; }
+  .footer {
+    width: 100%; } }

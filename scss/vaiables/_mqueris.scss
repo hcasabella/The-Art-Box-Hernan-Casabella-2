@@ -1,11 +1,14 @@
 
-//MEDIA QUERIS 320 PX MOBILE SMALL
+//MEDIA QUERIS INDEX 320 PX MOBILE SMALL
 
 @media (max-width:320px){
     .header nav {
         width: 320px;
 
     }
+   .listItems{
+       display:none;
+   }
     
     .navbar-brand{
         font-size: 37px;
@@ -50,7 +53,7 @@
 
 }
 
-//MEDIA QUERIS 375PX MOBILE MEDIUM
+//MEDIA QUERIS INDEX 375PX MOBILE MEDIUM
 
 
 @media (max-width:375px){
@@ -58,6 +61,9 @@
         width: 375px;
 
     }
+    .listItems{
+        display:none;
+    }
     
     .navbar-brand{
         font-size: 37px;
@@ -100,7 +106,7 @@
 }
 
 
-//MEDIA QUERIS 425PX MOBILE L
+//MEDIA QUERIS INDEX 425PX MOBILE L
 
 
 @media (max-width:425px){
@@ -108,6 +114,9 @@
         width: 375px;
 
     }
+    .listItems{
+        display:none;
+    }
     
     .navbar-brand{
         font-size: 37px;
@@ -147,7 +156,8 @@
 
 }
 
-//MEDIA QUERIS TABLET 768PX 
+
+//MEDIA QUERIS INDEX TABLET 768PX 
 
 @media (max-width:768px){
    
@@ -155,6 +165,10 @@
     .navbar-brand{
         font-size: 37px;
 
+    }
+   
+    .listItems{
+        display: none;
     }
     
     .padre1 {
@@ -195,7 +209,7 @@
 }
 
 
-//MEDIA QUERIS TABLET 1024PX LAPTOP
+//MEDIA QUERIS INDEX TABLET 1024PX LAPTOP
 
 @media (max-width:1024px){
    
@@ -236,5 +250,45 @@
 
 
 }
+
+//MEDIA QUERIS PRODUCTOS 320 px
+@media (max-width:320px){
+    
+    .header nav {
+        width: 320px;
+
+    }
+   .listItems{
+       display:none;
+   }
+    
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+    .nuestrosLibros {
+        display: none;
+    }
+    .grilla section{
+        margin-top: 0px;
+        display: block;
+    }
+    .grilla section div p{
+        font-size: 50px;
+    }
+    .section2 img{
+       width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+
+   
+    
+}
+   
+  
+    
+
 
 
