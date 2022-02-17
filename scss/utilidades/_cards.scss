@@ -1,17 +1,37 @@
 /* TARJETAS */
 
-.padre2 {
+.tarjetas1 {
     display: flex;
     padding-top: 60px;
     margin: 100px 20px;
-    padding-left: 50px;
-    text-align:left;
-    justify-content: center;
+    justify-content:space-between ;
+}
+
+.tarjetas2{
+    display: flex;
+    margin-top: 30px;
+    padding-top: 120px;
+    margin: 100px 20px;
+    justify-content:space-between ;
+
 }
 .card{
+    
     width: 350px;
     border-radius: 10px;
 }
+.card-title{
+    width: 290PX;
+    font-size: 1.5rem;
+}
+.card-text{
+    height:200px ;
+    width: 290px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+
 
 .card:hover{
     transition: all 0.5s;
@@ -20,32 +40,10 @@
 }
 .card-body-text {
     font-family: 'Julius Sans One', sans-serif;
-    width: 350px;
+    width: 3px;
     margin-top: 8px;
     
-}
-
-.card-berlin {
-    height: 500px ;
-    border-radius: 8px;
-}
-
-.card-mitos {
-    width: 350px;
-    height: 500px;
-    border-radius: 8px;
-}
-
-.card-rusia{
-    width: 350px;
-    height: 500px;
-    border-radius: 8px;
-}
-
-.card-szukalski{
-    width: 350px;
-    height: 500px;
-    border-radius: 8px;
+    
 }
 
 
