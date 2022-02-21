@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: baseline;
     height: 130px;
+    background-color:rgb(122, 31, 122);
     
 }
 
@@ -19,16 +20,15 @@
     font-weight: bolder;
     text-decoration: none;
     justify-content: left;
-}
-
-.nav li{
     margin: 0 10px;
-
 }
+
+
 
 .listItems li:hover {
  background-color: rgb(173, 80, 158);
  box-shadow: 5px 5px rgb(228, 17, 17);
+ 
  
 }
 

@@ -4,31 +4,53 @@
 /* FOOTER */
 
 
-.footer  {
-    display: block;
-    font-size: x-large;
-    font-family: 'Julius Sans One', sans-serif;
-    margin: 30px 0px 0px 0px;
-    background-color: rgb(226, 11, 11);
-    padding-top: 20px;
-    text-decoration: none;
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(197, 108, 197);
    
+    
+    .grupo1{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+
+
+    }
+    .box ul li a{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        
+
+
+    }
+
    
-   }
-   
-   
-   #contacto {
-       color: black;
-       font:bolder;
-       padding-left: 30px;
-       text-decoration: none;
-   }
-   
-   .suscribite {
-       display: flex;
-       justify-content: center;
-       justify-content: space-between;
-       padding-top: 20px;
-       font-weight: bold;
+        
+     .red-social a{
+         
        
-   }
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        width: 45px;
+        height: 45px;
+        
+        
+        
+         
+       
+    }
+
+   
+    
+     
+}
