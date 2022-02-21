@@ -73,7 +73,9 @@ p {
   margin: 0 10px; }
 
 .listItems li:hover {
-  background-color: #ad509e;
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  background-color: #c56cc5;
   box-shadow: 5px 5px #e41111; }
 
 .nav ul li a {
@@ -157,6 +159,11 @@ p {
   padding: 0px;
   display: flex; }
 
+.section1:hover {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
 .texto1 {
   padding: 20px;
   display: inline-block;
@@ -169,6 +176,11 @@ p {
   padding: 0px;
   display: flex; }
 
+.section2:hover {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
+
 .texto2 {
   padding: 20px;
   text-align: justify; }
@@ -180,6 +192,11 @@ p {
   padding: 0px;
   display: flex;
   margin-bottom: 50px; }
+
+.section3:hover {
+  transition: all 0.5s;
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
 
 .texto3 {
   padding: 20px;

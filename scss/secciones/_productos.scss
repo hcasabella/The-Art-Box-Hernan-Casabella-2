@@ -45,6 +45,11 @@
     display: flex;
     
     }
+.section1:hover{
+    transition: all 0.5s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}    
 
 .texto1 {
     padding: 20px;
@@ -61,6 +66,11 @@
     display: flex;
 
 }
+.section2:hover{
+    transition: all 0.5s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
 .texto2  {
     padding: 20px;
     text-align: justify;
@@ -74,6 +84,12 @@
     margin-bottom: 50px;
 
 }
+.section3:hover{
+    transition: all 0.5s;
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+
 .texto3 {
     padding: 20px;
     text-align: justify;
