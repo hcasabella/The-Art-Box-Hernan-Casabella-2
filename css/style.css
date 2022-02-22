@@ -18,7 +18,7 @@
   text-decoration: none; }
 
 .tituloPrincipal h1 {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Julius Sans One', sans-serif;
   font-size: 67px;
   text-decoration: none;
   text-align: center; }
@@ -310,6 +310,9 @@ p {
   margin: 100px 20px;
   justify-content: space-between; }
 
+.tarjetas1 div img {
+  justify-content: center; }
+
 .card {
   width: 350px;
   border-radius: 10px; }
@@ -408,28 +411,23 @@ p {
     display: none; } }
 
 @media (max-width: 425px) {
-  .header nav {
-    width: 375px; }
-  .listItems {
-    display: none; }
+  .tituloPrincipal h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 10px;
+    font-size: 40px; }
   .navbar-brand {
     font-size: 37px; }
-  .padre1 {
-    display: none; }
-  .padre3 {
-    display: none; }
-  .card-title {
-    width: 320px; }
-  .card-text {
-    width: 320px; }
+  .tarjetas1 {
+    display: block;
+    padding-top: 5px; }
+  .tarjetas2 {
+    padding-top: 5px;
+    display: block; }
+  .main {
+    justify-content: center; }
   .card {
-    width: 320px;
-    justify-content: center; }
-  .card img {
-    height: 432px;
-    width: 320px;
-    justify-content: center; }
-  .suscribite {
+    width: 288px; }
+  .red-social img {
     display: none; } }
 
 @media (max-width: 768px) {
@@ -437,60 +435,30 @@ p {
     font-size: 37px; }
   .listItems {
     display: none; }
-  .padre1 {
-    display: none; }
-  .padre2 section {
-    display: block; }
-  .padre3 {
-    display: none; }
-  .card-title {
-    width: 320px; }
-  .card-text {
-    width: 320px; }
-  .card {
-    width: 320px;
+  .tarjetas1 div {
+    display: block;
     justify-content: center; }
-  .card img {
-    height: 432px;
-    width: 320px;
-    justify-content: center; }
-  .suscribite {
-    display: none; } }
-
-@media (max-width: 1024px) {
-  .navbar-brand {
-    font-size: 37px; }
-  .padre1 {
-    display: none; }
-  .padre3 {
-    display: none; }
-  .card-title {
-    width: 300px; }
-  .card-text {
-    width: 300px; }
-  .card {
-    width: 300px;
-    justify-content: center; }
-  .card img {
-    height: 432px;
-    width: 300px;
+  .tarjetas2 div {
+    display: block;
     justify-content: center; } }
 
-@media (max-width: 320px) {
-  .header nav {
-    width: 320px; }
-  .listItems {
-    display: none; }
+@media (max-width: 425px) {
   .navbar-brand {
     font-size: 37px; }
-  .nuestrosLibros {
-    display: none; }
   .grilla section {
     margin-top: 0px;
-    display: block; }
+    display: block;
+    width: 425px; }
   .grilla section div p {
     font-size: 50px; }
+  .section1 img {
+    width: 425px; }
   .section2 img {
-    width: 100%; }
+    width: 425px; }
+  .section3 img {
+    width: 425px;
+    height: 230px; }
+  .alemania p {
+    font-size: 30px; }
   .footer {
     width: 100%; } }
