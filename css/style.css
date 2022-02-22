@@ -277,12 +277,21 @@ p {
     text-decoration: none;
     font-weight: bolder;
     color: black; }
-  .pie-pagina .red-social a {
+  .pie-pagina .box ul li a:hover {
+    transition: all 0.3s;
+    color: #f01212;
+    font-weight: bolder; }
+  .pie-pagina .red-social {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: row; }
+  .pie-pagina .red-social img {
     width: 45px;
-    height: 45px; }
+    height: 45px;
+    margin-right: 10px;
+    justify-items: normal; }
+  .pie-pagina .red-social img:hover {
+    transition: all 0.5s;
+    transform: translateY(-15px); }
 
 .textoResaltado {
   font-weight: bold; }

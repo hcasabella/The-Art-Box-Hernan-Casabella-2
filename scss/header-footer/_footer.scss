@@ -32,25 +32,32 @@
 
 
     }
+    .box ul li a:hover{
+        transition: all 0.3s;
+        color: rgb(240, 18, 18);
+        font-weight: bolder;
 
-   
-        
-     .red-social a{
-         
-       
-        display: flex;
-        flex-direction:row;
-        justify-content: space-between;
-        width: 45px;
-        height: 45px;
-        
-        
-        
-         
-       
     }
 
    
+        
+     .red-social {
+        display: flex;
+        flex-direction:row;
+    }
+   
+
+   .red-social img{
+       
+       width: 45px;
+       height: 45px;
+       margin-right: 10px;
+       justify-items: normal;
+   }
+   .red-social img:hover{
+    transition: all 0.5s;
+    transform: translateY(-15px);
+}
     
      
 }
