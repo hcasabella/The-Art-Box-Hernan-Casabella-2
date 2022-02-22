@@ -59,10 +59,10 @@ p {
   justify-content: space-between;
   align-items: baseline;
   height: 130px;
-  background-color: #7a1f7a; }
+  background-color: #c56cc5; }
 
 /* NAVEGADOR */
-.listItems ul li {
+.navbar-nav li {
   display: flex;
   list-style: none;
   padding-left: 30px;
@@ -72,7 +72,7 @@ p {
   justify-content: left;
   margin: 0 10px; }
 
-.listItems li:hover {
+.navbar-nav li:hover {
   transition: all 0.5s;
   transform: translateY(-15px);
   background-color: #c56cc5;
