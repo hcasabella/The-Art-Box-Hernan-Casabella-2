@@ -238,9 +238,6 @@
 //MEDIA QUERIS PRODUCTOS 375PX
 @media (max-width:375px){
     
-    
-  
-    
     .navbar-brand{
         font-size: 37px;
 
@@ -259,6 +256,7 @@
     }
     .section2 img{
        width: 375px;
+       height: 400px;
     }
     .section3 img{
         width: 375px;
@@ -346,5 +344,27 @@
    
     
 }
+
+
+
+//MEDIA QUERIS THE ART BOX 425 px
+@media (max-width:425px){
+    
+    .navbar-brand{
+        font-size: 37px;
+    }
+    
+
+   
+    .footer {
+        width: 100%;
+    }
+
+   
+    
+}
+
+
+
 
 

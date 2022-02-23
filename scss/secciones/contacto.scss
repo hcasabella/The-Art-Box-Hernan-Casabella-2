@@ -4,6 +4,7 @@
 /* FORMULARIO CSS */
 .formulario {
 
+    
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -14,8 +15,17 @@
     font-size: 30px;
 }
 
+
 .nombre {
+    
     padding-bottom: 30px;
+}
+.nombre label{
+    font-size: 27px;
+}
+.mb-3 label{
+    font-size: 27px;
+
 }
 
 .mail {

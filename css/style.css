@@ -254,6 +254,12 @@ p {
 .nombre {
   padding-bottom: 30px; }
 
+.nombre label {
+  font-size: 27px; }
+
+.mb-3 label {
+  font-size: 27px; }
+
 .mail {
   padding-bottom: 30px; }
 
@@ -483,7 +489,8 @@ p {
   .section1 img {
     width: 375px; }
   .section2 img {
-    width: 375px; }
+    width: 375px;
+    height: 400px; }
   .section3 img {
     width: 375px;
     height: 230px; }
@@ -523,5 +530,11 @@ p {
   .szukal img {
     width: 375px;
     height: 375px; }
+  .footer {
+    width: 100%; } }
+
+@media (max-width: 425px) {
+  .navbar-brand {
+    font-size: 37px; }
   .footer {
     width: 100%; } }
