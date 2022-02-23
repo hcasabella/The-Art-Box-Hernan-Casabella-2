@@ -1,54 +1,83 @@
 
-//MEDIA QUERIS INDEX 320 PX MOBILE SMALL
 
-@media (max-width:320px){
-    .header nav {
-        width: 320px;
+//MEDIA QUERIS INDEX TABLET 768PX 
 
-    }
-   .listItems{
-       display:none;
-   }
+@media (max-width:768px){
+   
     
     .navbar-brand{
         font-size: 37px;
 
     }
-    
-    .padre1 {
+   
+    .listItems{
         display: none;
     }
+    .tarjetas1 {
+        
+    }
+    .tarjetas2 {
+       
+
+    }
+    .padre1 img{
+        height: 450px;
+
+    }
+
+
+}
+
+
+
+
+//MEDIA QUERIS INDEX 425PX MOBILE L
+
+
+@media (max-width:425px){
+
+    .padre1{
+        display: none;
+    }
+   
+    .tituloPrincipal h1{
+        font-family: 'Julius Sans One', sans-serif;
+        margin-top: 10px;
+        font-size: 40px;
+    }
     
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+    .tarjetas1{
+        
+        display: block;
+        padding-top: 5px;
+        
+    }
+    .tarjetas2{
+        padding-top: 5px;
+        display: block;
+    }
+   
+    .main{
+        justify-content: center;
+    }
+
+    .card{
+        width: 288px;
+    }
+    
+    .red-social img{
+        display: none;
+    }
     .padre3{
         display:none;
     }
-    .card-title{
-        width: 320px;
-    }
-    .card-text{
-        width: 320px;
-    }
-
-    .card {
-        width: 320px;
-        justify-content: center;
-       
-       
-    }
-    .card img{
-        height: 432px;
-        width: 320px;
-        justify-content: center;
-    }
-    .footer {
-        width: 100%;
-    }
-
     
     
-    .suscribite {
-        display: none;
-    }
+
 
 
 }
@@ -56,60 +85,13 @@
 //MEDIA QUERIS INDEX 375PX MOBILE MEDIUM
 
 
+
+
 @media (max-width:375px){
-    .header nav {
-        width: 375px;
 
-    }
-    .listItems{
-        display:none;
-    }
-    
-    .navbar-brand{
-        font-size: 37px;
-
-    }
-    
-    .padre1 {
+    .padre1{
         display: none;
     }
-    
-    .padre3{
-        display:none;
-    }
-    .card-title{
-        width: 320px;
-    }
-    .card-text{
-        width: 320px;
-    }
-
-    .card {
-        width: 320px;
-        justify-content: center;
-       
-       
-    }
-    .card img{
-        height: 432px;
-        width: 320px;
-        justify-content: center;
-    }
-
-    
-    
-    .suscribite {
-        display: none;
-    }
-
-
-}
-
-
-//MEDIA QUERIS INDEX 425PX MOBILE L
-
-
-@media (max-width:425px){
    
     .tituloPrincipal h1{
         font-family: 'Julius Sans One', sans-serif;
@@ -141,46 +123,86 @@
     .red-social img{
         display: none;
     }
+    .padre3{
+        display:none;
+    }
     
-    
-
-
 
 }
-
-
-//MEDIA QUERIS INDEX TABLET 768PX 
-
-@media (max-width:768px){
-   
+//MEDIA QUERIS PRODUCTOS 1024PX
+@media (max-width:1024px){
     
     .navbar-brand{
         font-size: 37px;
 
     }
    
-    .listItems{
-        display: none;
-    }
-    .tarjetas1 div{
+    .grilla section{
+        margin-top: 0px;
         display: block;
-        justify-content: center;
+        width: 1024px;
     }
-    .tarjetas2 div{
+    .grilla section div p{
+        font-size: 30px;
+    }
+    .section1 img{
+        width: 1024px; 
+    }
+    .section2 img{
+       width: 1024px;
+    }
+    .section3 img{
+        width: 1024px;
+        height: 500px;
+    }
+    
+  
+    .footer {
+        width: 100%;
+    }
+
+    
+}
+
+//MEDIA QUERIS PRODUCTOS 768PX
+
+@media (max-width:768px){
+    
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+   
+    .grilla section{
+        margin-top: 0px;
         display: block;
-        justify-content: center;
-
+        width: 768px;
+    }
+    .grilla section div p{
+        font-size: 30px;
+    }
+    .section1 img{
+        width: 768px; 
+    }
+    .section2 img{
+       width: 768px;
+    }
+    .section3 img{
+        width: 768px;
+        height: 230px; 
+    }
+  
+    .footer {
+        width: 100%;
     }
 
-
+   
+    
 }
 
 
 //MEDIA QUERIS PRODUCTOS 425 px
 @media (max-width:425px){
-    
-    
-  
     
     .navbar-brand{
         font-size: 37px;
@@ -193,7 +215,7 @@
         width: 425px;
     }
     .grilla section div p{
-        font-size: 50px;
+        font-size: 25px;
     }
     .section1 img{
         width: 425px; 
@@ -205,8 +227,42 @@
         width: 425px;
         height: 230px; 
     }
-    .alemania p{
-        font-size: 30px;
+   
+    .footer {
+        width: 100%;
+    }
+
+   
+    
+}
+//MEDIA QUERIS PRODUCTOS 375PX
+@media (max-width:375px){
+    
+    
+  
+    
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+   
+    .grilla section{
+        margin-top: 0px;
+        display: block;
+        width: 375px;
+    }
+    .grilla section div p{
+        font-size: 25px;
+    }
+    .section1 img{
+        width: 375px; 
+    }
+    .section2 img{
+       width: 375px;
+    }
+    .section3 img{
+        width: 375px;
+        height: 230px; 
     }
     .footer {
         width: 100%;
@@ -216,13 +272,79 @@
     
 }
 
-//MEDIA QUERIS THE ART BOX SMALL MOBILE 320 PX
+//MEDIA QUERIS EDICIONES ESPECIALES 425 px
+@media (max-width:425px){
+    
+    .navbar-brand{
+        font-size: 37px;
 
-
+    }
+    .hoku{
+        
+        display: block;
+    }
+    .hoku img{
+        width: 425px;
+        height: 425px;
+    }
+    .szukal{
+        display: block;
+        
+        
+    }
+    .szukal p{
+        text-align:left;
+    }
+    .szukal img{
+        width: 425px;
+        height: 425px;
+       
+    }
+   
+    .footer {
+        width: 100%;
+    }
 
    
-  
     
+}
 
+
+//MEDIA QUERIS EDICIONES ESPECIALES 375 px
+@media (max-width:375px){
+    
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+    .hoku{
+        
+        display: block;
+    }
+    .hoku img{
+        width: 375px;
+        height: 375px;
+    }
+    .szukal{
+        display: block;
+        
+        
+    }
+    .szukal p{
+        text-align:left;
+    }
+    .szukal img{
+        width: 375px;
+        height: 375px;
+       
+    }
+   
+    .footer {
+        width: 100%;
+    }
+
+   
+    
+}
 
 
