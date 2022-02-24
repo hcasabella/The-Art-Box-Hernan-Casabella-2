@@ -1,3 +1,46 @@
+//MEDIA QUERIS INDEX 1024PX
+
+@media (max-width:1024px){
+   
+    
+    .navbar-brand{
+        font-size: 37px;
+
+    }
+
+    .tarjetas1 {
+        justify-content:space-evenly;
+        width: 1000px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    
+    
+    .tarjetas2{
+        justify-content:space-evenly;
+        margin-top: 20px;
+        width: 1000px;
+        display: flex;
+        flex-wrap:wrap;
+
+    }
+   
+    .listItems{
+        display: none;
+    }
+    
+    .padre1 img{
+        width: 1024;
+        height: 600px;
+
+    }
+
+    .padre3 {
+        display: none;
+    }
+
+
+}
 
 
 //MEDIA QUERIS INDEX TABLET 768PX 
@@ -9,20 +52,35 @@
         font-size: 37px;
 
     }
+
+    .tarjetas1 {
+        justify-content:space-around;
+        width: 700px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+    
+    
+    .tarjetas2{
+        justify-content:space-around;
+        margin-top: 20px;
+        width: 700px;
+        display: flex;
+        flex-wrap:wrap;
+
+    }
    
     .listItems{
         display: none;
     }
-    .tarjetas1 {
-        
-    }
-    .tarjetas2 {
-       
-
-    }
+    
     .padre1 img{
         height: 450px;
 
+    }
+
+    .padre3 {
+        display: none;
     }
 
 
@@ -52,13 +110,18 @@
     }
     .tarjetas1{
         
-        display: block;
+        width: 425PX;
+        display: flex;
+        flex-wrap: wrap;
         padding-top: 5px;
         
     }
     .tarjetas2{
+        width: 425PX;
+        display: flex;
+        flex-wrap: wrap;
         padding-top: 5px;
-        display: block;
+      
     }
    
     .main{
@@ -189,7 +252,7 @@
     }
     .section3 img{
         width: 768px;
-        height: 230px; 
+        height: 400px; 
     }
   
     .footer {
@@ -448,6 +511,46 @@
    
     
 }
+
+
+//MEDIA QUERIS THE ART BOX 375 px
+@media (max-width:375px){
+    
+    .navbar-brand{
+        font-size: 37px;
+    }
+    .tarjeta{
+        
+       
+        margin-top: 50px;
+        margin-bottom: 150px;
+        margin-left: 0px;
+        width: 375px;
+      
+    }
+    .card-img-top {
+       
+        width: 375px;
+        height: 300px;
+    }
+    
+    .card-body{
+        font-family: 'Julius Sans One', sans-serif;
+        width: 375px;
+    }
+    
+    .card-title {
+        padding-left: 27px;
+        font-weight:bolder;
+    }
+     .footer {
+        width: 100%;
+    }
+
+   
+    
+}
+
 
 
 
