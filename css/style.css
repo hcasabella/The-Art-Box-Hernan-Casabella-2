@@ -533,8 +533,59 @@ p {
   .footer {
     width: 100%; } }
 
+@media (max-width: 1024px) {
+  .navbar-brand {
+    font-size: 37px; }
+  .tarjeta {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    width: 898px; }
+  .card-img-top {
+    width: 898px;
+    height: 400px; }
+  .card-body {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 898px; }
+  .card-title {
+    padding-left: 27px;
+    font-weight: bolder; } }
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 37px; }
+  .tarjeta {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+    width: 768px; }
+  .card-img-top {
+    width: 768px;
+    height: 400px; }
+  .card-body {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 768px; }
+  .card-title {
+    padding-left: 27px;
+    font-weight: bolder; } }
+
 @media (max-width: 425px) {
   .navbar-brand {
     font-size: 37px; }
+  .tarjeta {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+    width: 427px; }
+  .card-img-top {
+    width: 427px;
+    height: 300px; }
+  .card-body {
+    font-family: 'Julius Sans One', sans-serif;
+    width: 427px; }
+  .card-title {
+    padding-left: 27px;
+    font-weight: bolder; }
   .footer {
     width: 100%; } }
