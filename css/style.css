@@ -86,6 +86,9 @@ p {
 .main {
   background-color: #ffffff; }
 
+.card-text {
+  color: black; }
+
 .padre1 {
   margin-bottom: 50px; }
 
