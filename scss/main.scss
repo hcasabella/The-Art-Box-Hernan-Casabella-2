@@ -38,6 +38,191 @@
  
 
 
+<<<<<<< HEAD
+/* MEDIA QUERIS */
+/* PANTALLA MEDIANA */
+/* INDEX */
+
+@media (max-width:768px){
+    h1 {
+        font-size: 45px;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 20px;
+    }
+    .header {
+        width: 100vw;
+
+    }
+    .header ul li{
+        display: flex;
+        justify-content:space-between;
+    }
+    /* MEDIA QUERIS INDEX */
+    .padre1 {
+       display: none;
+       
+    }
+    .padre2 div{
+        justify-content:center;
+        display: block;
+
+    }
+    .card-berlin{
+        width: 400px;
+    }
+  
+    .hijo1 img {
+        width: 250px;
+        height: 350px;
+        padding-right: 7px;
+
+    }
+
+   .hijo2 img {
+    width: 250px;
+    height: 350px;
+    padding-right: 7px;
+   }
+
+   .hijo3 img {
+    width: 250px;
+    height: 350px;
+    padding-right: 7px;
+   }
+
+   
+/* MEDIA QUERIS EDICIONES LIMITADAS */
+.szukal {
+    display:block;
+    padding-top: 25px;
+    
+}
+
+
+
+}
+/* MEDIA QUERIS PANTALLA CELL CHICA */
+
+    @media(max-width:320px){
+       .header {
+           display: block;
+           height: 250px;
+           width:max-content;
+           padding-bottom: 30px;
+
+       }
+       .nav ul {
+           display: block;
+           justify-content: center;
+           justify-items: center;
+           font-size: 30px;
+       }
+       .padre1{
+           display: block;
+           justify-items: center;
+
+       }
+       .hijo img {
+           display: none;
+       }
+      .padre2{
+          display: block;
+
+        }
+        .padre2 .hijo1{
+            justify-items: center;
+        }
+
+        .padre3 {
+            display: none;
+        }
+
+        .footer div {
+            display: block;
+            justify-content: center;
+        }
+
+        .footer h3 {
+            font-size: 20px;
+
+
+        }
+         .footer label {
+             font-size: 20px;
+         }
+         .suscribite form {
+             justify-content: center;
+         }
+
+        .suscribite div {
+            display: none;
+        }
+        .hoku {
+            display: block;
+        }
+        .hoku img{
+            width: 320px;
+            height: 300px;
+        }
+
+        .szukal img{
+
+            width: 320px;
+            height: 300px;
+
+        }
+        .szukal div{
+            padding-top: 20px;
+        }
+
+    }
+
+
+//MEDIA QUERIS PRODUCTOS MOBILE 320 PX
+
+@media(max-width:650px){
+    .mainProductos{
+        .nuestrosLibros{
+            text-align: center;
+        }
+      img{
+          width:320px;
+      }
+     
+      .section1 {
+          display: block;
+      }
+      .texto1 {
+          width: 320px;
+      }
+      .section2 {
+          display:block;
+          img {
+            height:350px ;
+          }
+      }
+      .texto2{
+          width:320px;
+          
+      }
+      .section3 {
+          display: block;
+          img{
+              width: 320px;
+              height: 174px;
+          }
+      }
+    }
+}   
+   
+   
+    
+
+=======
+>>>>>>> nuevoEstilo1
 
 
 
