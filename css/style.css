@@ -9,9 +9,6 @@
   font-weight: lighter;
   text-align: justify; }
 
-.textoResaltado {
-  font-weight: bold; }
-
 .navbar-brand {
   font-family: 'Anton', sans-serif;
   font-size: 67px;
@@ -205,12 +202,6 @@ p {
   padding: 20px;
   text-align: justify; }
 
-.mainProductos .textoParrafo {
-  color: #7a1f7a;
-  font-size: 2rem; }
-  .mainProductos .textoParrafo:hover {
-    background-color: black; }
-
 /* EDICIONES LIMITADAS ESTILOS */
 .hoku {
   display: flex;
@@ -301,9 +292,6 @@ p {
   .pie-pagina .red-social img:hover {
     transition: all 0.5s;
     transform: translateY(-15px); }
-
-.textoResaltado {
-  font-weight: bold; }
 
 /* TARJETAS */
 .tarjetas1 {

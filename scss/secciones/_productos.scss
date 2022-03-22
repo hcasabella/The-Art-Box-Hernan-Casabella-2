@@ -99,7 +99,7 @@
     
     .textoParrafo{
         @extend %estiloParrafo;
-        @include fontstyle($violeta,2rem,black);
+      
     }
 }
 
